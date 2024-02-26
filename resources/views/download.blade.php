@@ -9,8 +9,8 @@
 <body>
     <form method="POST" action="/api/load" enctype="multipart/form-data">
         @csrf @method('POST')
-        <input type="file" name="music" id="">
-        <input type="submit" value="">
+        <input type="file" name="music" id="" accept=".mp3">
+        <input type="submit" value="Отправить">
     </form>
 
 </body>
