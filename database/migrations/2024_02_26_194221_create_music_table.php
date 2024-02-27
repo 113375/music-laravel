@@ -14,10 +14,10 @@ return new class extends Migration
         Schema::create('music', function (Blueprint $table) {
             $table->id()->autoIncrement();
             $table->timestamps();
-            $table->integer("albumId")->nullable();
-            $table->string("songName");
+            $table->integer("album_id")->nullable();
+            $table->string("song_name");
             $table->string("musician");
-            $table->string("fileName");
+            $table->string("file_name");
 
         });
     }
