@@ -12,7 +12,12 @@
         @csrf @method('POST')
         <div class="form">
             <div>
+                <div>Файл с песней в формате mp3</div>
                 <input type="file" name="music" id="" >
+            </div>
+            <div>
+                <div>Файл с обложкой</div>
+                <input type="file" name="cover" id="" >
             </div>
             <div>
                 <input type="text" name="musician" id="" placeholder="Музыкант">

@@ -18,9 +18,11 @@ return new class extends Migration
             $table->string("song_name");
             $table->string("musician");
             $table->string("file_name");
-
+            $table->string("file_cover")->nullable();
         });
     }
+
+
 
     /**
      * Reverse the migrations.
